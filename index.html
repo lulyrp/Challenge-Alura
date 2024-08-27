@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,14 +29,16 @@
         
         <textarea id="output-text" placeholder="Resultado" rows="4" readonly></textarea>
         
+        <!-- Mensaje de error justo debajo del resultado -->
+        <p id="no-message" class="hidden error-message">Ningun mensaje fue encontrado.</p>
+
+        <!-- Botón de copiar debajo del mensaje de error -->
         <button onclick="copiarTexto()">
             <img src="assets/copiar.png" alt="Icono Copiar" class="icon"> Copiar
         </button>
-        
-        <!-- Mensaje de error en la parte inferior -->
-        <p id="no-message" class="hidden error-message">Ningún mensaje fue encontrado.</p>
     </div>
-    
+
+    <!-- Vinculamos a Javascript -->
     <script src="script.js"></script>
 </body>
 </html>
