@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url('assets/codigos.png');
     background-size: cover;
     background-position: center;
@@ -83,7 +83,7 @@ button:hover {
 }
 
 button:last-child {
-    background-color: #0d6e04;
+    background-color: #68f26c;
 }
 
 button:last-child:hover {
@@ -113,14 +113,16 @@ button:last-child:hover {
 }
 
 /* Mensaje de error */
+/* Mensaje de error */
+/* Mensaje de error */
 .error-message {
-    font-size: 28px; 
+    font-size: 20px; 
     color: #ff6b6b; 
     text-align: center;
-    position: absolute;
-    bottom: 60px; 
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 10px; /* Espacio adicional debajo de la ventana de resultados */
+    margin-bottom: 10px; /* Espacio adicional encima del botón de copiar */
+    position: relative;
+
 }
 
 @media (max-width: 600px) {
