@@ -28,3 +28,8 @@ Convertir un texto encriptado a su versión original.
 + Ver resultado: se mostrará en el campo de salida.
 + Copia el resultado: utiliza el botón de copiar para transferir el texto al portapapeles.
 
+
+
+
+
+![Screenshot_20240827-211534~2](https://github.com/user-attachments/assets/b8224bb2-b959-4f54-ad81-070c37204699)
