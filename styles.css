@@ -113,14 +113,12 @@ button:last-child:hover {
 }
 
 /* Mensaje de error */
-/* Mensaje de error */
-/* Mensaje de error */
 .error-message {
     font-size: 20px; 
     color: #ff6b6b; 
     text-align: center;
-    margin-top: 10px; /* Espacio adicional debajo de la ventana de resultados */
-    margin-bottom: 10px; /* Espacio adicional encima del botón de copiar */
+    margin-top: 10px; 
+    margin-bottom: 10px; 
     position: relative;
 
 }
